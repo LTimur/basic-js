@@ -23,7 +23,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getDNSStats(domains) {
-  return domains.replace(/.*ru/, '') 
+  return '';
 }
 
 module.exports = {
